@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "deelnemers",
+  "collectionName": "deelnemers21s",
   "info": {
-    "name": "Deelnemers20",
-    "description": ""
+    "name": "Deelnemers21"
   },
   "options": {
     "increments": true,
@@ -17,7 +16,7 @@
     "voornaam": {
       "type": "string"
     },
-    "profielfoto": {
+    "Profielfoto": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -31,14 +30,14 @@
     "telnummer": {
       "type": "string"
     },
-    "werkadres": {
-      "type": "text"
-    },
     "email": {
       "type": "email"
     },
-    "beschrijving": {
+    "Beschrijving": {
       "type": "richtext"
+    },
+    "Werkadres": {
+      "type": "text"
     }
   }
 }

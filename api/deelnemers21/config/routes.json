@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/deelnemers-21-s",
+      "handler": "deelnemers21.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/deelnemers-21-s/count",
+      "handler": "deelnemers21.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/deelnemers-21-s/:id",
+      "handler": "deelnemers21.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/deelnemers-21-s",
+      "handler": "deelnemers21.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/deelnemers-21-s/:id",
+      "handler": "deelnemers21.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/deelnemers-21-s/:id",
+      "handler": "deelnemers21.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
